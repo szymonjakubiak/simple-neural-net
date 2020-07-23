@@ -4,11 +4,11 @@
 
 # Compiler settings - Can be customized.
 CC = g++
-CXXFLAGS = -std=c++11 -Wall -O3
+CXXFLAGS = -std=c++11 -Wall -O3 -g
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
-APPNAME = Cpp_neural_net
+APPNAME = a.out
 EXT = .cpp
 SRCDIR = .
 OBJDIR = obj

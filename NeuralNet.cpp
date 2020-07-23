@@ -68,7 +68,7 @@ void NeuralNet::trainNetwork(IOdataStructure& input, const int& epochs, const in
 					successCounter++;
 				}
 			}
-			std::cout << "Current network efficiency: " << successCounter << "/" << testDataSize << "\n";
+			std::cout << "Current network accuracy: " << successCounter << "/" << testDataSize << "\n";
 		}
 	}
 	std::cout << "Training completed" << "\n";
